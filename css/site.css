@@ -680,13 +680,17 @@ icon-surah
   display: block;
 }
 #chapter-verses .verse-no{
-  display: block;
-  padding: 0.11em 1em;
+   display: block;
+  width: 50px; /* Set the width */
+  height: 50px; /* Set the height (equal to the width) */
+  padding: 0; /* Remove padding to maintain circular shape */
   margin-bottom: 14px;
   font-weight: 400;
   color: #333;
   background-color: #f2f2f2;
   text-align: center;
+  line-height: 50px; /* Center text vertically */
+  border-radius: 50%;
 }
 @media (max-width: 767px){
   #chapter-verses .verse-btn{
